@@ -46,7 +46,8 @@ Source: https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dia
 
 - WCAG 2.2 (W3C Recommendation)
 - WCAG 3.0 (W3C Working Draft)
-- WAI-ARIA 1.2 and 1.3 (Candidate Recommendation)
+- WAI-ARIA 1.2 (W3C Recommendation)
+- WAI-ARIA 1.3 (First Public Working Draft — informational reference only)
 - ARIA Authoring Practices Guide (APG)
 - ARIA in HTML
 - Accessible Name and Description Computation 1.2
