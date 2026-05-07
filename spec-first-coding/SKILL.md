@@ -65,6 +65,35 @@ Always state the specification version being referenced. If the user's context i
 version constraint (e.g. targeting WCAG 2.1 for a contract, using a specific browser API
 at a known support threshold), apply that version and note it.
 
+### Rule 5: Opinion tagging for non-normative sources
+
+Not all referenced sources are specifications. Blog posts, articles, personal sites, and
+community resources — including respected accessibility practitioners such as Scott O'Hara,
+Léonie Watson, Adrian Roselli, and others — represent expert opinion and practical
+guidance, not normative requirements.
+
+When referencing any source that is not an official specification, standard, or guideline
+from the Authority Table, Claude MUST tag it clearly as an opinion using this format:
+
+```
+OPINION: [Author name or site]
+Source: [URL]
+Note: This is not a normative specification. It represents expert opinion or community
+guidance and should be evaluated alongside the relevant official specification.
+```
+
+This rule applies to:
+- Personal blogs and websites (e.g. scottohara.me, tpgi.com/blog, adrianroselli.com)
+- Community articles and tutorials (e.g. CSS-Tricks, Smashing Magazine, MDN guides)
+- Conference talks and slide decks
+- GitHub issues and pull request discussions
+- Any source not listed in the Authority Table
+
+This rule does NOT prevent referencing these sources. Expert opinion and real-world
+testing notes are valuable, particularly for AT behaviour that specifications do not
+fully define. The requirement is transparency — the user must always know whether they
+are reading a normative requirement or an expert's recommendation.
+
 ---
 
 ## Authority Table
@@ -235,3 +264,6 @@ This skill applies to all of the following request types:
 5. Always flag known AT support gaps alongside the spec citation.
 6. If two specs conflict, surface both and state the conflict.
 7. If a technology is not in the Authority Table, say so — do not invent a source.
+8. Any source not in the Authority Table — including expert blogs and practitioner sites —
+   must be tagged with an OPINION block. Expert opinion is welcome; it must be clearly
+   distinguished from normative requirements.
