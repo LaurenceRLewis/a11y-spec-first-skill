@@ -10,7 +10,7 @@ Authored by [Laurence Lewis](https://github.com/laurencelewis) — Accessibility
 
 AI coding assistants often generate HTML, CSS, ARIA, and JavaScript from training-data recall alone. Specifications change. Browser behaviour diverges from older spec versions. ARIA patterns documented in training data may be superseded by WAI-ARIA 1.2 or 1.3. The result is plausible-sounding code that fails WCAG conformance or contradicts the current normative specification.
 
-This instruction file forces the AI to identify and cite the governing specification for every technology it references — before writing a single line of code.
+This instruction file forces the AI to identify and cite the governing specification for every technology it references before writing a single line of code.
 
 ---
 
